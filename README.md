@@ -17,3 +17,13 @@ AWS-CodePipeline or Azure-DevOps.
 - The pipeline should run the CI and CD
 - You have 100% flexibility on how you design the pipeline.
 
+=====================================================================================================================
+
+1.) A google compute instance resource defined using Terraform
+
+2.) The CI/CD pipeline triggers the following actions when code is pushed to the GitHub repo:
+
+terraform init
+terraform plan
+terraform apply
+
