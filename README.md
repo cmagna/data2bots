@@ -23,7 +23,7 @@ AWS-CodePipeline or Azure-DevOps.
 
 2.) The CI/CD pipeline triggers the following actions when code is pushed to the GitHub repo:
 
-terraform init
-terraform plan
-terraform apply
+a.) terraform init
+b.) terraform plan
+c.) terraform apply
 
